@@ -19,13 +19,21 @@ This is very simple and very useful.
 ## Features
 * Modal Popup
 * Using SQLite
-* CSV Export / Import 
+* CSV Export / Import
 
 
 ## Dependencies
 * PHP >= 5.3.7 (recommends PHP 5.4 or newer)
 * Apache (uses .htaccess)
 * SQLite3
+
+## Tested on Debian 9
+* nginx
+* php-fpm (7.0)
+* php-sqlite3
+* php-xml (without it's impossible to import CSV)
+* sqlite3
+
 
 ## Using
 * Codeigniter 3.1.5
@@ -45,8 +53,15 @@ This is very simple and very useful.
 - Copy ipam.db.sample to ipam.db   # sqlite/ipam.db
 
 
+### Drop example data :
+- sqlite3 sqlite/ipam.db
+  - delete from networks;
+  - delete from hosts;
+  - vacuum;
+
+
 ## Configuration
-### Adjust `Firewall` 
+### Adjust `Firewall`
 Please seek information about `SELinux`, `firewall` to web..  
 And adjust settings properly..  
 (If settings are too firm (example, SELinux is `Enforcing`),   
