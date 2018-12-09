@@ -109,7 +109,7 @@
                 If you want to purge table, you use SQLite database manager or execute the following command in Linux
             </p>
             <pre>
-SQLite> DELETE FROM COMPANY;
+SQLite> DELETE FROM NETWORKS;
 SQLite> VACUUM;
 </pre>
         </div>
