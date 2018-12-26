@@ -34,7 +34,7 @@ class Hosts extends CI_Controller
         $config['base_url'] = site_url("hosts/search/NIL");
         $config['total_rows'] = $this->db->count_all('hosts');
         $data['total_rows'] = $config['total_rows'];
-        $config['per_page'] = "20";
+        $config['per_page'] = "254";
         $config["uri_segment"] = 4;
         $choice = $config["total_rows"] / $config["per_page"];
         $config["num_links"] = floor($choice);
@@ -102,7 +102,7 @@ class Hosts extends CI_Controller
         $config = array();
         $config['base_url'] = site_url("hosts/search/$search");
         $config['total_rows'] = $this->Ipam->get_hosts_count($search);
-        $config['per_page'] = "20";
+        $config['per_page'] = "254";
         $config["uri_segment"] = 4;
         $choice = $config["total_rows"] / $config["per_page"];
         $config["num_links"] = floor($choice);

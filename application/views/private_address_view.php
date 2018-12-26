@@ -40,7 +40,7 @@
             <td>192.168.0.0</td>
             <td>192.168.255.255</td>
             <td>1,048,576</td>
-            <td>172.16.0.0/24</td>
+            <td>192.168.0.0/24</td>
         </tr>
         </tbody>
     </table>
@@ -50,6 +50,6 @@
 
 
 <!-- ================================================================================== -->
-<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
 
     <h2>Networks</h2>
 
@@ -40,12 +40,12 @@
     <table id="table_id" class="table table-striped table-bordered" cellspacing="0" width="100%">
         <thead>
         <tr>
-            <th width="90px">Networks</th>
-            <th width="40px">CIDR</th>
-            <th width="80px">Broadcast</th>
-            <th width="60px">VLAN ID</th>
-            <th width="150px">Note1[Identifier]</th>
-            <th width="60px">Note2[Zone]</th>
+            <th>Networks</th>
+            <th>CIDR</th>
+            <th>Broadcast</th>
+            <th>VLAN ID</th>
+            <th>Note1[Identifier]</th>
+            <th>Note2[Zone]</th>
             <th>Note3[Others]</th>
             <th width="120px">Operation</th>
         </tr>
@@ -101,9 +101,9 @@
 </div>
 
 <!-- ================================================================================== -->
-<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url('assets/datatables/js/jquery.dataTables.min.js') ?>"></script>
 <script src="<?php echo base_url('assets/datatables/js/ip-address.js') ?>"></script>
 <script src="<?php echo base_url('assets/datatables/js/dataTables.bootstrap.js') ?>"></script>
@@ -316,4 +316,3 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- End Bootstrap modal -->
-
